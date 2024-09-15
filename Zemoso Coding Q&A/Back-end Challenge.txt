@@ -1,0 +1,34 @@
+In the Java file, write a program to perform a GET request on the route https://coderbyte.com/api/chal lenges/json/age-counting which contains a data key and the value is a string which contains items in the format: key-STRING, age=INTEGER. Your goal is to count how many items exist that have an age equal to or greater than 50, and print this final value.
+
+Example Input {"data":"key-IAfpK, age-58, key=WNVdi, age=64, key-jp9zt, age=47"}
+
+Example Output
+
+2
+Example Input
+
+{"data":"key=IAfpK, age=58, key=WNVdi, age=64, key=jp9zt, age=47"}
+
+Example Output
+
+2
+
+A
+
+Example Output with Challenge Token
+
+200 j7p 35
+
+Once your function is working, take the final output string and concatenate it with your Challenge Token, and then replace every fourth character with an underscore.
+
+Your ChallengeToken: 0ouj7p135
+
+
+
+add following dependency
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20210307</version>
+</dependency>
+
