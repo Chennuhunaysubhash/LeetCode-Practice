@@ -1,0 +1,31 @@
+Problem statement
+You are given an integer ‘N’ and a prime number ‘P’. Your task is to find the N! modulo P.
+
+Detailed explanation ( Input/output format, Notes, Images )
+Constraints :
+1 <= T <= 10
+1 <= N <= 10^9
+1 <= P <= 10^9
+|N - P| <= 1000
+
+Time Limit: 1 sec
+Sample Input 1 :
+2
+5 3
+4 5
+Sample Output 1 :
+0
+4
+Explanation For Sample Input 1 :
+Test Case 1:
+5! = 5*4*3*2*1 = 120 and and it will give remainder as 0 when divided by 3.
+
+Test Case 2:
+4! = 4*3*2*1 = 24 and it will give the remainder 4 when divided by 5.
+Sample Input 2 :
+2
+5 11
+10 7
+Sample Output 2 :
+10
+0
